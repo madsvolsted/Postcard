@@ -89,6 +89,15 @@
                                     <rect key="frame" x="16" y="72" width="350" height="65"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgC-q0-RtA">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.078393463800356986" green="0.17328132463402315" blue="0.86880523989898983" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="145" width="246" height="29"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02j-wM-K5d">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.58493666267962718" blue="0.033725482959049646" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,6 +118,7 @@
                                 <exclude reference="DrJ-iv-BPT"/>
                                 <exclude reference="zn7-CA-h2N"/>
                                 <exclude reference="bQX-am-147"/>
+                                <exclude reference="MgC-q0-RtA"/>
                                 <exclude reference="02j-wM-K5d"/>
                             </mask>
                         </variation>
@@ -118,6 +128,7 @@
                                 <include reference="DrJ-iv-BPT"/>
                                 <include reference="zn7-CA-h2N"/>
                                 <include reference="bQX-am-147"/>
+                                <include reference="MgC-q0-RtA"/>
                                 <include reference="02j-wM-K5d"/>
                             </mask>
                         </variation>
@@ -127,6 +138,7 @@
                         <outlet property="enterNameTextfield" destination="DrJ-iv-BPT" id="9LS-gc-ENK"/>
                         <outlet property="mailButton" destination="02j-wM-K5d" id="PgG-Wa-ZDy"/>
                         <outlet property="messageLabel" destination="bQX-am-147" id="2ax-j6-1OU"/>
+                        <outlet property="nameLabel" destination="MgC-q0-RtA" id="N3D-V2-Nlo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
